@@ -18,8 +18,8 @@ def main(image_path, palette_path):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Calculate color percentages in an image based on a palette.')
-    parser.add_argument('-i', 'image_path', type=str, help='Path to the image file.')
-    parser.add_argument('-p', 'palette_path', type=str,
+    parser.add_argument('-i', '--image_path', type=str, help='Path to the image file.')
+    parser.add_argument('-p', '--palette_path', type=str,
                         help='Path to the palette JSON file.', default="color_palette.json")
     args = parser.parse_args()
 
