@@ -1,37 +1,31 @@
 {
-  "color_palette": [
+  "colour_palette": [
     {
-      "Id": "e1d3ce57-315b-4c27-b477-da481c4e6bbc",
       "Colour": "Red",
       "HexValue": "#FF0000",
       "RGBValue": "255,0,0"
     },
     {
-      "Id": "223e08d8-e492-4e5c-8d65-c4064afbf6a4",
       "Colour": "White",
       "HexValue": "#FFFFFF",
       "RGBValue": "255,255,255"
     },
     {
-      "Id": "ce6f8a08-e78c-4dd0-b348-5ba6bf574255",
       "Colour": "Black",
       "HexValue": "#020202",
       "RGBValue": "2,2,2"
     },
     {
-      "Id": "3a51c9a0-2e31-49bf-8b61-a6df13f3d24b",
       "Colour": "Blue",
       "HexValue": "#2C98F0",
       "RGBValue": "44,152,240"
     },
     {
-      "Id": "652ef76a-2adc-4d79-8771-fb4b90a09b1b",
       "Colour": "Yellow",
       "HexValue": "#FFEB3B",
       "RGBValue": "255,235,59"
     },
     {
-      "Id": "56447c20-e6e1-4fd5-929e-6c581679e88a",
       "Colour": "Green",
       "HexValue": "#00FF00",
       "RGBValue": "0,255,0"
