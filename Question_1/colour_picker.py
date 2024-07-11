@@ -23,4 +23,5 @@ if __name__ == "__main__":
                         help='Path to the palette JSON file.', default="color_palette.json")
     args = parser.parse_args()
 
+    print("Start processing image with path:", args.image_path)
     main(args.image_path, args.palette_path)
