@@ -13,14 +13,14 @@ def main(image_path, palette_path):
     palette = load_palette(palette_path)
     # load Image
 
-    # use print to output the result in format "color1: percentage1. Color2: percentage2..."
+    # use print to output the result in format "colour1: percentage1. colour2: percentage2..."
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Calculate color percentages in an image based on a palette.')
+    parser = argparse.ArgumentParser(description='Calculate colour percentages in an image based on a palette.')
     parser.add_argument('-i', '--image_path', type=str, help='Path to the image file.')
     parser.add_argument('-p', '--palette_path', type=str,
-                        help='Path to the palette JSON file.', default="color_palette.json")
+                        help='Path to the palette JSON file.', default="colour_palette.json")
     args = parser.parse_args()
 
     print("Start processing image with path:", args.image_path)
